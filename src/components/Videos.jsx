@@ -11,8 +11,9 @@ const Videos = ({videos}) => {
         <Box key = {idx}>
             {item.id.videoId && <VideoCard
                 video = {item}/>}
-            {/* {item.id.channelId && <ChannelCard
-                channelDetial = {item}/>} */}
+            {item.id.channelId && <ChannelCard
+                channelDetial = {item}/>}
+                {item.id.channelId? console.log(" channel ka tanan bana",item):null}
 
             
         </Box>
