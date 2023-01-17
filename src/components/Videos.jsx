@@ -12,7 +12,7 @@ const Videos = ({videos}) => {
             {item.id.videoId && <VideoCard
                 video = {item}/>}
             {item.id.channelId && <ChannelCard
-                channelDetial = {item}/>}
+                channelDetail = {item}/>}
                 {item.id.channelId? console.log(" channel ka tanan bana",item):null}
 
             
